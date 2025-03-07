@@ -2,8 +2,8 @@ import streamlit as st
 st.title('CROP YIELD PREDICTION')
 st.header('prediction')
 st.write('Predicting Crop Yield By Using The Values of Rainfall (mm),Soil Quality (index),Farm Size (hectares),Sunlight (hours),Fertilizer (kg).This prediction helps the farms to improve agricultural plannings')
-#from PIL import Image
-#st.image(Image.open(r'C:\Users\DELL\Downloads\crop yield image.webp'))
+from PIL import Image
+st.image(Image.open(r'C:\Users\DELL\Downloads\crop yield image.webp'))
 
 st.markdown(
     """
